@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB"/>
+      <stop offset="100%" style="stop-color:#E0F0FF"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#7CB342"/>
+      <stop offset="100%" style="stop-color:#558B2F"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky background -->
+  <rect width="400" height="400" fill="url(#sky)"/>
+  <!-- Sun -->
+  <circle cx="320" cy="80" r="40" fill="#FFD54F"/>
+  <!-- Grass -->
+  <ellipse cx="200" cy="380" rx="220" ry="60" fill="url(#grass)"/>
+  <!-- Puppy body -->
+  <ellipse cx="200" cy="280" rx="70" ry="50" fill="#D4A574"/>
+  <!-- Puppy head -->
+  <circle cx="200" cy="200" r="55" fill="#D4A574"/>
+  <!-- Ears -->
+  <ellipse cx="145" cy="170" rx="25" ry="35" fill="#C4956A"/>
+  <ellipse cx="255" cy="170" rx="25" ry="35" fill="#C4956A"/>
+  <!-- Eyes -->
+  <circle cx="175" cy="195" r="12" fill="white"/>
+  <circle cx="225" cy="195" r="12" fill="white"/>
+  <circle cx="178" cy="195" r="7" fill="#5D4037"/>
+  <circle cx="228" cy="195" r="7" fill="#5D4037"/>
+  <circle cx="180" cy="193" r="2" fill="white"/>
+  <circle cx="230" cy="193" r="2" fill="white"/>
+  <!-- Nose -->
+  <ellipse cx="200" cy="220" rx="12" ry="8" fill="#5D4037"/>
+  <!-- Mouth -->
+  <path d="M 185 235 Q 200 250 215 235" stroke="#5D4037" stroke-width="3" fill="none"/>
+  <!-- Tongue -->
+  <ellipse cx="200" cy="245" rx="8" ry="12" fill="#FF8A80"/>
+  <!-- Tail -->
+  <path d="M 270 280 Q 310 260 290 220" stroke="#C4956A" stroke-width="15" fill="none" stroke-linecap="round"/>
+  <!-- Legs -->
+  <ellipse cx="155" cy="320" rx="18" ry="25" fill="#D4A574"/>
+  <ellipse cx="245" cy="320" rx="18" ry="25" fill="#D4A574"/>
+  <!-- Paws -->
+  <ellipse cx="155" cy="340" rx="15" ry="10" fill="#C4956A"/>
+  <ellipse cx="245" cy="340" rx="15" ry="10" fill="#C4956A"/>
+</svg>

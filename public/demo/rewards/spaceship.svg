@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="space" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A237E"/>
+      <stop offset="50%" style="stop-color:#311B92"/>
+      <stop offset="100%" style="stop-color:#4A148C"/>
+    </linearGradient>
+    <linearGradient id="rocket" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ECEFF1"/>
+      <stop offset="100%" style="stop-color:#B0BEC5"/>
+    </linearGradient>
+  </defs>
+  <!-- Space background -->
+  <rect width="400" height="400" fill="url(#space)"/>
+  <!-- Stars -->
+  <circle cx="50" cy="50" r="2" fill="white"/>
+  <circle cx="150" cy="80" r="1.5" fill="white"/>
+  <circle cx="350" cy="60" r="2" fill="white"/>
+  <circle cx="280" cy="120" r="1" fill="white"/>
+  <circle cx="80" cy="150" r="1.5" fill="white"/>
+  <circle cx="320" cy="200" r="2" fill="white"/>
+  <circle cx="60" cy="280" r="1" fill="white"/>
+  <circle cx="340" cy="300" r="1.5" fill="white"/>
+  <circle cx="100" cy="350" r="2" fill="white"/>
+  <circle cx="250" cy="50" r="1" fill="white"/>
+  <circle cx="180" cy="320" r="1.5" fill="white"/>
+  <!-- Planet -->
+  <circle cx="320" cy="320" r="40" fill="#FF7043"/>
+  <ellipse cx="320" cy="320" rx="55" ry="12" fill="#FFAB91" opacity="0.6"/>
+  <!-- Moon -->
+  <circle cx="80" cy="80" r="25" fill="#CFD8DC"/>
+  <circle cx="75" cy="75" r="5" fill="#B0BEC5"/>
+  <circle cx="90" cy="85" r="3" fill="#B0BEC5"/>
+  <!-- Rocket body -->
+  <ellipse cx="200" cy="200" rx="40" ry="80" fill="url(#rocket)"/>
+  <!-- Rocket nose -->
+  <path d="M 160 120 Q 200 60 240 120" fill="#FF5252"/>
+  <!-- Window -->
+  <circle cx="200" cy="160" r="20" fill="#4FC3F7"/>
+  <circle cx="200" cy="160" r="15" fill="#81D4FA"/>
+  <ellipse cx="195" cy="155" rx="5" ry="8" fill="white" opacity="0.6"/>
+  <!-- Fins -->
+  <path d="M 160 250 L 120 300 L 160 280 Z" fill="#FF5252"/>
+  <path d="M 240 250 L 280 300 L 240 280 Z" fill="#FF5252"/>
+  <!-- Flames -->
+  <ellipse cx="200" cy="310" rx="25" ry="40" fill="#FF9800"/>
+  <ellipse cx="200" cy="320" rx="18" ry="30" fill="#FFEB3B"/>
+  <ellipse cx="200" cy="325" rx="10" ry="20" fill="white"/>
+  <!-- Sparkle trail -->
+  <text x="180" y="380" font-size="16" fill="#FFD54F">✨</text>
+  <text x="220" y="370" font-size="14" fill="#FFD54F">⭐</text>
+  <text x="195" y="390" font-size="12" fill="#FFD54F">✨</text>
+</svg>

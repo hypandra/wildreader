@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="skyBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4FC3F7"/>
+      <stop offset="100%" style="stop-color:#B3E5FC"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky background -->
+  <rect width="400" height="400" fill="url(#skyBg)"/>
+  <!-- Clouds -->
+  <g fill="white" opacity="0.9">
+    <ellipse cx="80" cy="100" rx="50" ry="30"/>
+    <ellipse cx="120" cy="90" rx="40" ry="25"/>
+    <ellipse cx="60" cy="95" rx="35" ry="22"/>
+    <ellipse cx="320" cy="80" rx="45" ry="28"/>
+    <ellipse cx="355" cy="70" rx="35" ry="22"/>
+    <ellipse cx="290" cy="75" rx="30" ry="20"/>
+  </g>
+  <!-- Rainbow arcs -->
+  <path d="M 50 350 A 150 150 0 0 1 350 350" fill="none" stroke="#FF5252" stroke-width="18"/>
+  <path d="M 68 350 A 132 132 0 0 1 332 350" fill="none" stroke="#FF9800" stroke-width="18"/>
+  <path d="M 86 350 A 114 114 0 0 1 314 350" fill="none" stroke="#FFEB3B" stroke-width="18"/>
+  <path d="M 104 350 A 96 96 0 0 1 296 350" fill="none" stroke="#4CAF50" stroke-width="18"/>
+  <path d="M 122 350 A 78 78 0 0 1 278 350" fill="none" stroke="#2196F3" stroke-width="18"/>
+  <path d="M 140 350 A 60 60 0 0 1 260 350" fill="none" stroke="#3F51B5" stroke-width="18"/>
+  <path d="M 158 350 A 42 42 0 0 1 242 350" fill="none" stroke="#9C27B0" stroke-width="18"/>
+  <!-- Bottom clouds -->
+  <g fill="white">
+    <ellipse cx="50" cy="360" rx="60" ry="35"/>
+    <ellipse cx="100" cy="370" rx="50" ry="30"/>
+    <ellipse cx="350" cy="360" rx="60" ry="35"/>
+    <ellipse cx="300" cy="370" rx="50" ry="30"/>
+    <ellipse cx="200" cy="380" rx="70" ry="40"/>
+  </g>
+  <!-- Sparkles -->
+  <text x="150" y="180" font-size="24" fill="#FFD54F">✨</text>
+  <text x="250" y="160" font-size="20" fill="#FFD54F">⭐</text>
+  <text x="180" y="140" font-size="18" fill="#FFD54F">✨</text>
+</svg>
