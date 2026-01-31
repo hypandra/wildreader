@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export const metadata: Metadata = {
   title: "Terms of Service | Wild Reader",
-  description: "Terms of service for Wild Reader",
+  description: "Terms of service template for Wild Reader",
 }
 
 export default function TermsPage() {
@@ -20,24 +20,47 @@ export default function TermsPage() {
         </h1>
 
         <div className="space-y-6 text-bark/80">
+          {/* Template Notice */}
+          <section className="bg-amber-100 border border-amber-300 rounded-lg p-4 space-y-2">
+            <h2 className="text-lg font-display font-bold text-amber-800 mb-2">
+              Template Notice
+            </h2>
+            <p className="text-sm text-amber-800">
+              This is example content for self-hosted deployments serving external users. Replace{" "}
+              <span className="font-mono bg-amber-200 px-1 rounded">[Your Organization]</span>{" "}
+              with your entity name and customize for your jurisdiction. This is not legal advice.
+            </p>
+            <p className="text-sm text-amber-800">
+              If you run Wild Reader locally or restrict access to your family, you don&apos;t need
+              to customize these terms. You can also contribute to the{" "}
+              <a href="https://github.com/hypandra/wildreader" className="underline hover:text-amber-900">
+                open source project
+              </a>{" "}
+              without updating the ToS.
+            </p>
+          </section>
+
           <section>
             <h2 className="text-xl font-display font-bold text-bark mb-2">
               For Parents and Guardians
             </h2>
             <p>
               Wild Reader is designed for children ages 3-5 to use with parental supervision.
-              By creating an account, you confirm that you are a parent or legal guardian
+              By creating an account with <span className="font-mono bg-bark/10 px-1 rounded">[Your Organization]</span>,
+              you confirm that you are a parent or legal guardian
               and consent to your child&apos;s use of this service.
             </p>
           </section>
 
           <section>
             <h2 className="text-xl font-display font-bold text-bark mb-2">
-              Data We Collect
+              Data Collection
             </h2>
             <p>
-              We collect your email address for account purposes and store a username
-              you choose for your child along with their learning progress. We do not
+              <span className="font-mono bg-bark/10 px-1 rounded">[Your Organization]</span> collects
+              your email address for account purposes and stores a username
+              you choose for your child along with their learning progress.{" "}
+              <span className="font-mono bg-bark/10 px-1 rounded">[Your Organization]</span> does not
               sell or share personal information with third parties. All data is stored securely.
             </p>
           </section>
@@ -48,9 +71,10 @@ export default function TermsPage() {
             </h2>
             <p>
               Wild Reader uses AI to generate reward images based on your child&apos;s interests.
-              These images are created automatically and, while we strive for appropriate content,
-              we recommend parental review. Images are stored on your account and can be deleted
-              at any time.
+              These images are created automatically and, while{" "}
+              <span className="font-mono bg-bark/10 px-1 rounded">[Your Organization]</span> strives
+              for appropriate content, parental review is recommended. Images are stored on your
+              account and can be deleted at any time.
             </p>
           </section>
 
@@ -59,7 +83,8 @@ export default function TermsPage() {
               No Warranty
             </h2>
             <p>
-              Wild Reader is provided &quot;as is&quot; without warranties of any kind. We are not
+              Wild Reader is provided &quot;as is&quot; without warranties of any kind.{" "}
+              <span className="font-mono bg-bark/10 px-1 rounded">[Your Organization]</span> is not
               responsible for any educational outcomes. This is a supplemental learning tool,
               not a replacement for professional instruction.
             </p>
@@ -70,13 +95,14 @@ export default function TermsPage() {
               Changes to Terms
             </h2>
             <p>
-              We may update these terms occasionally. Continued use of Wild Reader after
+              <span className="font-mono bg-bark/10 px-1 rounded">[Your Organization]</span> may
+              update these terms occasionally. Continued use of Wild Reader after
               changes constitutes acceptance of the new terms.
             </p>
           </section>
 
           <p className="text-sm text-bark/60 pt-4 border-t border-bark/10">
-            Last updated: January 2026
+            Template version: January 2026
           </p>
         </div>
       </div>
